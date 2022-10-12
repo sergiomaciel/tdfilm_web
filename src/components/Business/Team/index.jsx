@@ -8,8 +8,8 @@ const Team = () => {
         <div className="row">
           <div className="col-12">
             <div className="round-head text-center mb-80">
-              <h6 className="ls2 text-u fz-13 fw-700 mb-20 gr-green-text rest">Our Staff</h6>
-              <h2 className="fw-700">Creative Minds</h2>
+              <h6 className="ls2 text-u fz-13 fw-700 mb-20 gr-green-text rest">Nuestro Equipo</h6>
+              <h2 className="fw-700">Mentes Creativas</h2>
             </div>
           </div>
         </div>

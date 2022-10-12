@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
 import Split from '../../Split';
 import removeSlashFromPagination from "../../../common/removeSlashFromPagination";
-import slides from "../../../data/corporate/header.json";
+import slides from "../../../data/sliders.json";
 
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -71,16 +71,16 @@ const Header = () => {
             {
               slides.map((slide, idx) => (
                 <SwiperSlide key={idx}>
-                  <div className="bg-img valign" style={{ backgroundImage: `url('${slide.bg}')` }} data-overlay-dark="5">
+                  <div className="bg-img valign" style={{ backgroundImage: `url('${slide.bg}')` }} data-overlay-dark="2">
                     <div className="container">
                       <div className="row justify-content-center">
-                        <div className="col-lg-8 col-md-10">
-                          <div className="caption text-center mt-30">
+                        <div className="col-lg-12 col-md-10">
+                          <div className="caption text-center mt-40">
                             <Split>
                               <h1 className="fw-800" data-splitting>{ slide.title }</h1>
                             </Split>
                             <div className="row justify-content-center">
-                              <div className="col-lg-10">
+                              <div className="col-lg-12">
                                 <p className="fz-16">
                                   { slide.text }
                                 </p>
@@ -89,8 +89,8 @@ const Header = () => {
                             <div className="mt-30">
                               <Link href="/about-corporate">
                                 <a className="butn butn-md gr-sunrise-bg text-light radius-30">
-                                  <span className="text slide-up">About Company</span>
-                                  <span className="text slide-down">About Company</span>
+                                  <span className="text slide-up">PLAY</span>
+                                  <span className="text slide-down">PLAY</span>
                                 </a>
                               </Link>
                             </div>

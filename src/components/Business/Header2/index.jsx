@@ -7,13 +7,12 @@ const Header = ({ bg }) => {
   }, []);
 
   return (
-    <header className="pg-header-bus bg-img parallaxie valign" data-background={bg} data-overlay-dark="5">
+    <header className="pg-header-bus bg-img parallaxie valign" data-background={bg} data-overlay-dark="2">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="caption text-center">
-              <h6 className="sub-title fw-400">Learn more about Ravo template</h6>
-              <h1 className="fz-60 fw-600">We are a creative <br /> design studio.</h1>
+              <h1 className="fz-60 fw-600">SOBRE NOSOTROS</h1>
             </div>
           </div>
         </div>

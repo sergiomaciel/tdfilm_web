@@ -49,6 +49,12 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link href="/home"><a className="nav-link">HOME</a></Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/nosotros"><a className="nav-link">NOSOTROS</a></Link>
+            </li>
             <li className="nav-item dropdown" onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
               <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Home
