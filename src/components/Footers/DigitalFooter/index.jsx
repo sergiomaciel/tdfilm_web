@@ -129,12 +129,7 @@ const Footer = ({ footerClass, type }) => {
             </div>
             <div className="col-lg-6">
               <div className="copyrights d-flex justify-content-end">
-                <p className="fz-13">
-                  © 2022 Ravo is Proudly Powered by 
-                  <span className="underline">
-                    <a href={footerData.theme_author.url} rel="noreferrer" target="_blank"  className={`ms-1 ${type == 'purple-red' ? 'gr-purple-red-text':''} ${type == 'purple-light' ? 'gr-blue2-text':''}`}>{ footerData.theme_author.name }</a>
-                  </span>
-                </p>
+                <p className="fz-13">© 2022 TDFilm</p>
               </div>
             </div>
           </div>

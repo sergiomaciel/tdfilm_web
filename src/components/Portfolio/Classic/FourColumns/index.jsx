@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 import Link from 'next/link';
 import initIsotope from '../../../../common/initIsotope';
-import data from '../../../../data/portfolio/classic/four-columns.json';
+import data from '../../../../data/produciones.json';
 
 const Portfolio = () => {
   useEffect(() => {
@@ -20,7 +20,7 @@ const Portfolio = () => {
             <div className="filter">
               {
                 data.filters.map((filter, index) => (
-                  <span data-filter={filter.operator} className={index == 0 ? 'active':''} key={index}>{ filter.name }</span>
+                  <span data-filter={filter.operator} className={index == 0 ? 'active':''} key={index}>{ filter.title }</span>
                 ))
               }
             </div>
@@ -30,19 +30,19 @@ const Portfolio = () => {
           <div className="gallery col-12 rest">
             <div className="row">
               {
-                data.gallery.map((item, index) => (
-                  <div className={`col-lg-3 col-md-6 items md-getter ${item.filter} wow fadeInUp`} data-wow-delay=".4s" key={index}>
+                data.films.map((item, index) => (
+                  <div className={`col-lg-3 col-md-6 items md-getter ${item.caegory.join(" ")} wow fadeInUp`} data-wow-delay=".4s" key={index}>
                     <div className="item-img">
                       <Link href="/project-details">
                         <a className="imago wow">
-                          <img src={item.image} alt="image" />
-                          <div className="item-img-overlay"></div>
+                          <img src={item.image ?? "img/films/default.jpg"} alt="image" style={{ width: 400, height: 600 }}/>
+                          {/* <div className="item-img-overlay"></div> */}
                         </a>
                       </Link>
                     </div>
                     <div className="cont mt-30 text-center">
-                      <h6 className="fw-500">{ item.title }</h6>
-                      <p>{ item.type }</p>
+                      <h6 className="fw-500">{ item.title.toUpperCase() } - { item.year } </h6>
+                      <p>{ item.caegory.join(", ") }</p>
                     </div>
                   </div>
                 ))

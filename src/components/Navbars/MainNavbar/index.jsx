@@ -55,6 +55,9 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
             <li className="nav-item">
               <Link href="/nosotros"><a className="nav-link">NOSOTROS</a></Link>
             </li>
+            <li className="nav-item">
+              <Link href="/hecho-en-tdf"><a className="nav-link">HECHO EN TDF</a></Link>
+            </li>
             <li className="nav-item dropdown" onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
               <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Home

@@ -69,10 +69,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-6">
               <div className="copyrights d-flex justify-content-end">
-                <p className="fz-13">© 2022 Ravo is Proudly Powered by 
-                  <span className="underline ms-1">
-                    <a href="https://themeforest.net/user/themescamp" rel="noreferrer" target="_blank">ThemesCamp</a>
-                  </span>
+                <p className="fz-13"><p className="fz-13">© 2022 TDFilm</p>
                 </p>
               </div>
             </div>

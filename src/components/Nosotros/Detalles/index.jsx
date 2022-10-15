@@ -7,7 +7,6 @@ const NosotrosDetalles = () => {
         <div className="row">
           <div className="col-lg-12 offset-lg-1 valign">
             <div className="hero-cont">
-
               <p className="fw-500 fz-18 mb-10 text-dark"><span className="fz-30">T</span>ierra del Fuego Film Commission tiene por objetivo facilitar a las productoras locales, nacionales e internacionales la realización de producciones audiovisuales en la provincia. </p>
               <br />
               <p className="fw-500 fz-18 mb-10 text-dark">Ofrece herramientas y servicios gratuitos, como asesoramiento para facilitar la toma de decisiones relativas a un rodaje,  tramitación de permisos, vinculación con profesionales, servicios locales y productoras afines en pos de lograr una optimización de recursos materiales, humanos y económicos.  </p>

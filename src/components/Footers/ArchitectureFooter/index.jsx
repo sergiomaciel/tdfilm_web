@@ -40,12 +40,7 @@ const Footer = ({ hideTop }) => {
             </div>
             <div className="col-md-9">
               <div className="copyrights d-flex justify-content-end">
-                <p>
-                  © 2022 Ravo is Proudly Powered by
-                  <span className="underline">
-                    <a href="https://themeforest.net/user/themescamp" rel="noreferrer" target="_blank" className="yellow-green-color ms-1">ThemesCamp</a>
-                  </span>
-                </p>
+                <p className="fz-13">© 2022 TDFilm</p>
               </div>
             </div>
           </div>

@@ -1,0 +1,425 @@
+{
+  "filters": [
+    {
+      "title": "All",
+      "operator": "*"
+    },
+    {
+      "title": "PELÍCULAS",
+      "operator": ".PELÍCULAS"
+    },
+    {
+      "title": "SERIES",
+      "operator": ".SERIES"
+    },
+
+    {
+      "title": "DOCUMENTAL",
+      "operator": ".DOCUMENTAL"
+    },
+    {
+      "title": "PUBLICIDAD",
+      "operator": ".PUBLICIDAD"
+    },
+    {
+      "title": "PATRIMONIO AUDIOVISUAL",
+      "operator": ".PATRIMONIO"
+    }
+  ],
+  "films": [
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "1997",
+      "title": "Happy together",
+      "director": "Wong Kar Wai",
+      "link": "https://www.youtube.com/watch?v=f0Dh6Jdc18c",
+      "image": "img/films/HAPPY_TOGETHER.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2020",
+      "title": "Long way up",
+      "director": "Werner Herzog",
+      "link": "https://www.youtube.com/watch?v=611fw81BN98",
+      "image": "img/films/LONG_WAY_UP.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2008",
+      "title": "Liverpool",
+      "director": "Lisandro alonso",
+      "link": "https://www.youtube.com/watch?v=E0QdEDtwQXk",
+      "image": "img/films/LIVERPOOL.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2012",
+      "title": "La Cárcel del Fin del Mundo",
+      "director": "Lucia Vassallo",
+      "link": "https://www.youtube.com/watch?v=4dcldU7Ovb4",
+      "image": null
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2013",
+      "title": "La reconstrucción",
+      "director": "Taratuto",
+      "link": "https://www.youtube.com/watch?v=0bF3yv_aw04&t=5s",
+      "image": "img/films/LA_RECONSTRUCCION.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2014",
+      "title": "Al fin del mundo",
+      "director": "Franca Gonzalez",
+      "link": "https://www.youtube.com/watch?v=Dd_olbijVdw",
+      "image": "img/films/AL_FIN_DEL_MUNDO.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2015",
+      "title": "The revenant",
+      "director": "Iñarritu",
+      "link": "https://www.youtube.com/watch?v=LoebZZ8K5N0",
+      "image": "img/films/THE_REVENANT.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2015",
+      "title": "Nave Tierra",
+      "director": "Mariano Torre & Agustín Nuñez",
+      "link": "https://www.youtube.com/watch?v=D7FxmGdM80c&t=9s",
+      "image": "img/films/NAVE_TIERRA.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2017",
+      "title": "QTH",
+      "director": "Tossenberger",
+      "link": "https://www.youtube.com/watch?v=ce1O9xxRHVo&t=36s",
+      "image": "img/films/QTH.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2018",
+      "title": "La Omisión",
+      "director": "Sebastián Schjaer",
+      "link": "https://www.youtube.com/watch?v=uL0YF9V1voo",
+      "image": null
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2018",
+      "title": "Joel",
+      "director": "Sorín",
+      "link": "https://www.youtube.com/watch?v=KbE9VtxXuIg&t=12s",
+      "image": "img/films/JOEL.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2018",
+      "title": "Atlántico Sur",
+      "director": "Antonio Molina Montecinos No trailer yet",
+      "image": null
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2019",
+      "title": "La guarida del lobo",
+      "director": "Tossenberger",
+      "link": "https://www.youtube.com/watch?v=aKpyvRa49VI",
+      "image": "img/films/LA_GUARIDA_DEL_LOBO.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2019",
+      "title": "Breve Historia del Planeta Verde",
+      "director": "Santiago Loza",
+      "link": "https://www.youtube.com/watch?v=SliDIR2OwUg",
+      "image": null
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2020",
+      "title": "Chico ventana",
+      "director": "Alex Piperno",
+      "link": "https://www.youtube.com/watch?v=56HmANyNOPs",
+      "image": "img/films/CHICO_VENTANA_TAMBIEN_QUISIERA_TENER_UN_SUBMARINO.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2020",
+      "title": "Detetives do Predio Azul III",
+      "director": "Mauro Lima",
+      "link": "https://www.youtube.com/watch?v=aGvQBlYMLe8",
+      "image": null
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2020",
+      "title": "Cóndor de Los Andes",
+      "director": "Will Mazzola (Cortometraje brasileño)",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2021",
+      "title": "Re Granchio",
+      "director": "Alessio Rigo de Righi y Matteo Zoppis",
+      "link": "https://www.youtube.com/watch?v=9UkI6_In7N0",
+      "image": "img/films/RE_GRANCHIO.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2021",
+      "title": "La chica nueva",
+      "director": "Micaela Gonzalo",
+      "link": "https://www.youtube.com/watch?v=COCRqarKyb0",
+      "image": "img/films/LA_CHICA_NUEVA.jpg"
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2022",
+      "title": "El lado Salvaje",
+      "director": "Dickinson. (Aún en postproducción)",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2022",
+      "title": "El gerente",
+      "director": "Ariel Winograd  (Aún en postproducción)",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2022",
+      "title": "Los colonos",
+      "director": "Felipe Galvéz  (Aún en postproducción)",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PELÍCULAS",
+        "SERIES LLEGADAS"
+      ],
+      "year": "2022",
+      "title": "Serie Cóndor 1.0.5",
+      "director": "Nico",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PATRIMONIO AUDIOVISUAL"
+      ],
+      "year": "1925",
+      "title": "La Terre de Feu",
+      "director": "Alberto De Agostini",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PATRIMONIO AUDIOVISUAL"
+      ],
+      "year": "1933",
+      "title": "Terre Magellaniche",
+      "director": "Alberto De Agostini",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PATRIMONIO AUDIOVISUAL"
+      ],
+      "year": "1991",
+      "title": "The scream of stone",
+      "director": "Herzog",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PATRIMONIO AUDIOVISUAL"
+      ],
+      "year": "1991",
+      "title": "El viaje. Pino Solanas",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "DOCUMENTAL"
+      ],
+      "year": "2017",
+      "title": "Tierra del Fuego",
+      "director": " Marcos Rostagno",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "DOCUMENTAL"
+      ],
+      "year": "2018",
+      "title": "Perros del fin del mundo",
+      "director": "Jonh Dickinson",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "DOCUMENTAL"
+      ],
+      "year": "2016",
+      "title": "Before the flood",
+      "director": "Leonardo Di Caprio",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "DOCUMENTAL"
+      ],
+      "year": "2021",
+      "title": "La soledad de los huesos",
+      "director": "Alfredo Lichter",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PUBLICIDAD"
+      ],
+      "year": "2022",
+      "title": "CANON",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PUBLICIDAD"
+      ],
+      "year": "2022",
+      "title": "MONCLER",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PUBLICIDAD"
+      ],
+      "year": "2022",
+      "title": "KIA",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PUBLICIDAD"
+      ],
+      "year": "2022",
+      "title": "BURGERKING",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PUBLICIDAD"
+      ],
+      "year": "2022",
+      "title": "Mercado Libre",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PUBLICIDAD"
+      ],
+      "year": "2022",
+      "title": "Peugeot",
+      "link": null,
+      "image": null
+    },
+    {
+      "caegory": [
+        "PUBLICIDAD"
+      ],
+      "year": "2022",
+      "title": "Vodka",
+      "link": null,
+      "image": null
+    }
+  ]
+}
