@@ -1,48 +1,37 @@
-import headerData from '../../../data/project/header.json';
+import { useRouter } from "next/router";
 
-const Header = () => {
+const Header = ({ item }) => {
+
+  const router = useRouter();
+  const img = `${router.basePath}/${item.image}`
+
   return (
-    <section className="works-header bg-img parallaxie d-flex align-items-end" style={{ backgroundImage: "url('img/portfolio/project2/bg.jpg')" }} data-overlay-dark="4">
+    <section className="works-header bg-img parallaxie d-flex align-items-end" style={{ backgroundImage: `url(${img})` }} data-overlay-dark="1">
       <div className="container">
         <div className="row">
           <div className="col-lg-7 col-md-9">
             <div className="cont mb-40">
-              <h6>art & illustration</h6>
-              <h2>Inspiring new space.</h2>
+              <h1>{ item.title }</h1>
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="item mt-30">
-              <h6>Client</h6>
-              <p><a href="#0">{ headerData.client }</a></p>
+              <h5>Director</h5>
+              <h6>{ item.director }</h6>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="item mt-30">
-              <h6>Date</h6>
-              <p>{ headerData.date }</p>
+              <h5>Año</h5>
+              <h6>{ item.year }</h6>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="item mt-30">
-              <h6>Categories</h6>
-              <p>
-                { 
-                  headerData.categories.map((category, idx) => (<a href="#0" key={idx}>{ category }{ idx !== headerData.categories.length - 1 ? <> ,</> : null }</a>))
-                }
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-3">
-            <div className="item mt-30">
-              <h6>Tags</h6>
-              <p>
-                { 
-                  headerData.tags.map((tags, idx) => (<a href="#0" key={idx}>{ tags }{ idx !== headerData.tags.length - 1 ? <> , </> : null }</a>))
-                }
-              </p>
+              <h5>Categorias</h5>
+              <h6>{ item.caegory.join(", ") }</h6>
             </div>
           </div>
         </div>

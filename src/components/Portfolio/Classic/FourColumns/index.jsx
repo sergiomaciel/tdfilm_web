@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { useEffect } from 'react';
+import slugify from "slugify";
 import Link from 'next/link';
 import initIsotope from '../../../../common/initIsotope';
 import data from '../../../../data/produciones.json';
@@ -33,7 +34,7 @@ const Portfolio = () => {
                 data.films.map((item, index) => (
                   <div className={`col-lg-3 col-md-6 items md-getter ${item.caegory.join(" ")} wow fadeInUp`} data-wow-delay=".4s" key={index}>
                     <div className="item-img">
-                      <Link href="/project-details">
+                      <Link href={`/produccion/${slugify(item.title).toLowerCase()}`}>
                         <a className="imago wow">
                           <img src={item.image ?? "img/films/default.jpg"} alt="image" style={{ width: 400, height: 600 }}/>
                           {/* <div className="item-img-overlay"></div> */}

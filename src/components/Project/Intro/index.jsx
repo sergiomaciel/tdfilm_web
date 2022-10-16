@@ -1,58 +1,37 @@
-import { useState } from "react";
-import { SlideDown } from 'react-slidedown';
+import { useRouter } from "next/router";
 import 'react-slidedown/lib/slidedown.css';
-import accordionsData from '../../../data/project/accordions.json';
 
-const Intro = () => {
-  const [accordions, setAccordions] = useState(accordionsData);
-
-  const openAccordion = (e) => {
-    document.querySelectorAll('.accordion.bord .item').forEach(accordion => accordion.classList.remove('active'))
-
-    let item = e.target.closest('.item');
-    item.classList.add('active');
-
-    let newAccordions = accordions.map((accordion, idx) => {
-      if (item.id.split('-')[1] == idx) accordion.closed = false;
-      else accordion.closed = true;
-
-      return accordion;
-    });
-
-    setAccordions(newAccordions);
-  }
+const Detalles = ({ item }) => {
   
+  const router = useRouter();
+  const portada = `${router.basePath}/${item?.image ?? "img/films/default.jpg"}`
+
   return (
     <section className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-4">
-            <div className="htit">
-              <h4><span>01 .</span> Introduction</h4>
+            <div className="item-img">
+              <a className="imago wow">
+                <img src={ portada } alt="image" style={{ width: 400, height: 600 }}/>
+              </a>
             </div>
           </div>
-          <div className="col-lg-8 offset-lg-1 col-md-8">
-            <div className="text js-scroll__content">
-              <p className="fz-18 fw-300">
-                We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.
-              </p>
-
-              <div className="accordion bord mt-50">
-                {
-                  accordions.map((accordion, idx) => (
-                    <div className={`item ${idx == 1 ? 'active':''}`} id={`accordion-${idx}`} key={idx} onClick={openAccordion}>
-                      <div className="title">
-                        <h6 className="fz-15">{ accordion.title }</h6>
-                        <span className="ico"></span>
-                      </div>
-                      <SlideDown className="accordion-info active" closed={accordion.closed}>
-                        <p>{ accordion.details }</p>
-                      </SlideDown>
-                    </div>
-                  ))
-                }
-              </div>
+          <div className="col-lg-7 offset-lg-2 col-md-8">
+          <h1>{ item?.title }</h1>
+          <br />
+          { item?.director &&  <h6><b>DIRECTOR:</b> {item?.director}</h6> }
+          <br />
+          { item?.year &&  <h6><b>AÑO:</b> {item?.director}</h6> }
+          <br />
+          { item?.year &&  <h6><b>GÉNERO:</b> {item?.caegory.join(", ")}</h6> }
+          <br />
+          { item?.synopsis && 
+            <div>
+              <h6><b>SINOPSIS</b></h6>
+              <p className="fw-500 fz-18 mb-10 text-dark"> { item?.synopsis } </p>
             </div>
+          }
           </div>
         </div>
       </div>
@@ -60,4 +39,4 @@ const Intro = () => {
   )
 }
 
-export default Intro
+export default Detalles
