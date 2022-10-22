@@ -14,7 +14,7 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <section className="portfolio section-padding pt-0">
+    <section className="portfolio section-padding pt-50">
       <div className="container-fluid">
         <div className="row">
           <div className="filtering d-flex justify-content-center col-12 mb-10">

@@ -42,7 +42,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
       }
       <div className="container pt-80 pb-80">
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="clumn">
               <div className="logo mb-30">
                 <Link href="/landing-preview">
@@ -65,7 +65,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
               </div>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-4">
             <div className="clumn">
               <h5 className="title fw-600 fz-20 mb-30">About Us</h5>
               <ul className="cmp-links">
@@ -81,7 +81,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="clumn">
               <h5 className="title fw-600 fz-20 mb-30">Office</h5>
               <ul className="address">
@@ -92,29 +92,6 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
                 <li className="tel">
                   <h6 className={`${business ? 'gr-green-text': creative ? '':'gr-purple-red-text'}`}>{ footerData.phone }</h6>
                 </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="clumn">
-              <h5 className="title fw-600 fz-20 mb-30">Recent Posts</h5>
-              <ul className="rc-post">
-                {
-                  footerData.recent_posts.map((post, idx) => (
-                    <li key={idx}>
-                      <Link href={post.url}>
-                        <a className={`flex ${idx !== footerData.recent_posts.length - 1 ? 'mb-30':''}`}>
-                          <div className="img">
-                            <img src={post.image} alt="" />
-                          </div>
-                          <div className="cont">
-                            <h6 className="fz-16 line-height-28">{ post.title }</h6>
-                          </div>
-                        </a>
-                      </Link>
-                    </li>
-                  ))
-                }
               </ul>
             </div>
           </div>

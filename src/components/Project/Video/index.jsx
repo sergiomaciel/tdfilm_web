@@ -1,9 +1,13 @@
 import { useState, useEffect } from 'react';
+import { useRouter } from "next/router";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 import parallaxie from '../../../common/parallaxie';
 
-const Video = () => {
+const Video = ({ item }) => {
+  const router = useRouter();
+  const bg = `${router.basePath}/${item?.image ?? "img/films/default.jpg"}`
+  console.log(bg);
   const [isOpen, setOpen] = useState(false);
 
   useEffect(() => {
@@ -18,9 +22,9 @@ const Video = () => {
   return (
     <section>
       <div className="container-fluid">
-        <div className="video-wrapper section-padding bg-img parallaxie valign" data-background="img/portfolio/project2/bg1.jpg" data-overlay-dark="4">
+        <div className="video-wrapper section-padding bg-img parallaxie valign" data-background={bg} data-overlay-dark="4">
           <div className="full-width text-center">
-            <a className="vid" href="https://vimeo.com/127203262" onClick={openVideo}>
+            <a href="https://youtu.be/AzwC6umvd1s" className="vid" onClick={openVideo}>
               <div className="vid-butn">
                 <span className="icon">
                   <i className="fas fa-play"></i>
@@ -34,10 +38,10 @@ const Video = () => {
         typeof window !== "undefined" && 
           (
             <ModalVideo
-              channel="vimeo"
+              channel="youtube"
               autoplay
               isOpen={isOpen}
-              videoId="127203262"
+              videoId="AzwC6umvd1s"
               onClose={() => setOpen(false)}
             />
           )

@@ -5,7 +5,7 @@ import Head from 'next/head';
 import MainLightLayout from '../../layouts/main-light';
 //= Components
 import StickyBar from '../../components/Common/StickyBar';
-import Header from '../../components/Business/Header2';
+import Header from '../../components/Header/bg-img/index';
 import NosotrosDetalles from '../../components/Nosotros/Detalles';
 import Services from '../../components/Business/Services2';
 import About from '../../components/Business/About';
@@ -37,7 +37,7 @@ const AboutBusiness = () => {
 
       <MainLightLayout>
         <StickyBar />
-        <Header bg="img/tdfilm_nosotros.jpg" />
+        <Header title={"SOBRE NOSOTROS"} bg="img/header_nosotros.jpg" />
         <main className="position-re">
           <NosotrosDetalles />
           <Team />

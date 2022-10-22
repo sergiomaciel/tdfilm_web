@@ -34,7 +34,6 @@ const ProduccionDetalles = () => {
 
   const router = useRouter();
   const { slug } = router.query;
-  console.log(slug);
   const item = data.films.find(x => slugify(x.title).toLowerCase()  === slug );
   
   return (
@@ -47,7 +46,7 @@ const ProduccionDetalles = () => {
         <StickyBar />
         <div className="wrapper">
           <Detalles item={ item } />
-          <Video />
+          {/* <Video /> */}
           <Footer footerClass="main-footer bg-dark-blue" />
         </div>
       </MainLightLayout>

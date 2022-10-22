@@ -40,7 +40,7 @@ const HomeCorporate = () => {
       <MainLightLayout>
         <StickyBar />
         <Header />
-        <Hero />
+        {/* <Hero />
         <Services />
         <Portfolio />
         <Skills />
@@ -48,7 +48,7 @@ const HomeCorporate = () => {
         <Testimonials />
         <Brands lineHead={true} />
         <Blog />
-        <Footer />
+        <Footer /> */}
       </MainLightLayout>
     </>
   )

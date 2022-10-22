@@ -1,7 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
+import { useRouter } from "next/router";
 
 const Navbar = ({ navbarRef, theme, logoTheme }) => {
+  const router = useRouter();
+  // const portada = `${router.basePath}/${item?.image ?? "img/films/default.jpg"}`
+
   const dropdownHover = (e) => {
     const dropdownItem = e.target.tagName === 'SPAN' ? e.target.parentElement : e.target;
     const dropdownMenu = dropdownItem.querySelector('.dropdown-menu');
@@ -29,9 +33,9 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
       <div className="container">
         <Link className="navbar-brand" href="/">
           <div className="logo">
-            { logoTheme === 'dark' && <img src="img/logo-dark.png" alt="" /> }
-            { logoTheme === 'light' && <img src="img/logo-light.png" alt="" /> }
-            { !logoTheme && <img src="img/logo-dark.png" alt="" /> }
+            { logoTheme === 'dark' && <img src={`${router.basePath}/img/logo-dark.png`} alt="" /> }
+            { logoTheme === 'light' && <img src={`${router.basePath}/img/logo-light.png`} alt="" /> }
+            { !logoTheme && <img src={`${router.basePath}/img/logo-dark.png`} alt="" /> }
           </div>
         </Link>
 
@@ -57,6 +61,9 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
             </li>
             <li className="nav-item">
               <Link href="/hecho-en-tdf"><a className="nav-link">HECHO EN TDF</a></Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/locaciones"><a className="nav-link">LOCACIONES</a></Link>
             </li>
             <li className="nav-item dropdown" onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
               <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -98,7 +105,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
                 </li>
               </ul>
             </li>
-            <li className="nav-item dropdown mega-menu" onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
+            {/* <li className="nav-item dropdown mega-menu" onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
               <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Portfolio
               </span>
@@ -141,8 +148,8 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
                   </div>
                 </div>
               </div>
-            </li>
-            <li className="nav-item dropdown" onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
+            </li> */}
+            {/* <li className="nav-item dropdown" onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
               <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Blogs
               </span>
@@ -153,9 +160,9 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
                 <li><Link href="/blog-side-img"><a className="dropdown-item">Side Image</a></Link></li>
                 <li><Link href="/blog-post"><a className="dropdown-item">Single Post</a></Link></li>
               </ul>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <Link href="/contact-creative"><a className="nav-link">Contact</a></Link>
+              <Link href="/contact-creative"><a className="nav-link">CONTACTO</a></Link>
             </li>
           </ul>
           <div className="social">

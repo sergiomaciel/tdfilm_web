@@ -6,7 +6,7 @@ import MainLightLayout from '../../layouts/main-light';
 //= Components
 import StickyBar from '../../components/Common/StickyBar';
 import FixedSearch from '../../components/Common/FixedSearch';
-import Header from '../../components/Portfolio/Header';
+import Header from '../../components/Header/bg-img/index';
 import Portfolio from '../../components/Portfolio/Classic/FourColumns';
 import Footer from "../../components/Footers/MainFooter";
 
@@ -32,11 +32,11 @@ const PortfolioClassicFourCols = () => {
         <title>TDFilm | Hecho en tdf</title>
       </Head>
 
-      <MainLightLayout defaultTheme="dark" defaultLogoTheme="dark">
+      <MainLightLayout>
         <StickyBar />
         <Header 
           title={title}
-          subTitle={subTitle}
+          bg={"img/hecho_en_tdf.jpg"}
         />
         <main className="position-re">
           <Portfolio />

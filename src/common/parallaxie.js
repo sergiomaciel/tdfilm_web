@@ -1,7 +1,7 @@
 export default function parallaxie(selector) {
   let elementBg = document.querySelector(selector);
   let image = elementBg.getAttribute("data-background");
-  let position = elementBg.getBoundingClientRect().top * 0.10;
+  let position = elementBg.getBoundingClientRect().top * 0.90;
 
   elementBg.style.backgroundImage = `url("${image}")`;
   elementBg.style.backgroundSize = 'cover';
@@ -13,7 +13,7 @@ export default function parallaxie(selector) {
     let elements = document.querySelectorAll('.parallaxie[data-background]');
 
     elements.forEach(element => {
-      position = element.getBoundingClientRect().top * 0.10;
+      position = element.getBoundingClientRect().top * 0.90;
       element.style.backgroundPosition = `bottom ${position}px`;
     });
   }
