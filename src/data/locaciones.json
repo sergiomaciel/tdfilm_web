@@ -16,201 +16,251 @@
       "category": []
     }
   ],
+  "filters": [
+    {
+      "title": "TODO",
+      "operator": "*"
+    },
+    {
+      "title": "BOSQUE",
+      "operator": ".BOSQUE"
+    },
+    {
+      "title": "MONTAÑAS",
+      "operator": ".MONTANAS"
+    },
+    {
+      "title": "PLAYAS",
+      "operator": ".PLAYAS"
+    },
+    {
+      "title": "VALLES",
+      "operator": ".VALLES"
+    },
+    {
+      "title": "CIUDAD",
+      "operator": ".CIUDAD"
+    },
+    {
+      "title": "HISTÓRICO",
+      "operator": ".HISTORICO"
+    },
+    {
+      "title": "ECOTONO",
+      "operator": ".ECOTONO"
+    },
+    {
+      "title": "MAR",
+      "operator": ".MAR"
+    },
+    {
+      "title": "ESTANCIAS",
+      "operator": ".ESTANCIAS"
+    },
+    {
+      "title": "LAGOS",
+      "operator": ".LAGOS"
+    },
+    {
+      "title": "RIOS",
+      "operator": ".RIOS"
+    }
+  ],
   "locaciones": [
     {
       "zona": "CENTRO",
       "type": "ESTANCIAS",
-      "imge": "/img/locaciones/CENTRO/ESTANCIAS/_MG_2629.jpg"
+      "image": "/img/locaciones/CENTRO/ESTANCIAS/_MG_2629.jpg"
     },
     {
       "zona": "CENTRO",
       "type": "LAGOS",
-      "imge": "/img/locaciones/CENTRO/LAGOS/LAGOS_1.jpg"
+      "image": "/img/locaciones/CENTRO/LAGOS/LAGOS_1.jpg"
     },
     {
       "zona": "CENTRO",
       "type": "LAGOS",
-      "imge": "/img/locaciones/CENTRO/LAGOS/LAGOS_2.jpg"
+      "image": "/img/locaciones/CENTRO/LAGOS/LAGOS_2.jpg"
     },
     {
       "zona": "NORTE",
       "type": "ESTANCIAS",
-      "imge": "/img/locaciones/NORTE/ESTANCIAS/VIAMENTE_1.jpg"
+      "image": "/img/locaciones/NORTE/ESTANCIAS/VIAMONETE_1.jpg"
     },
     {
       "zona": "NORTE",
       "type": "ESTANCIAS",
-      "imge": "/img/locaciones/NORTE/ESTANCIAS/VIAMONETE_2.jpg"
+      "image": "/img/locaciones/NORTE/ESTANCIAS/VIAMONETE_2.jpg"
     },
     {
       "zona": "NORTE",
       "type": "ESTANCIAS",
-      "imge": "/img/locaciones/NORTE/ESTANCIAS/VIAMONETE_3.jpg"
+      "image": "/img/locaciones/NORTE/ESTANCIAS/VIAMONETE_3.jpg"
     },
     {
       "zona": "NORTE",
       "type": "ESTEPA",
-      "imge": "/img/locaciones/NORTE/ESTEPA/ESTEPA_1.jpg"
+      "image": "/img/locaciones/NORTE/ESTEPA/ESTEPA_1.jpg"
     },
     {
       "zona": "NORTE",
       "type": "ESTEPA",
-      "imge": "/img/locaciones/NORTE/ESTEPA/GUANACO.jpg"
+      "image": "/img/locaciones/NORTE/ESTEPA/GUANACO.jpg"
     },
     {
       "zona": "NORTE",
       "type": "ESTEPA",
-      "imge": "/img/locaciones/NORTE/ESTEPA/CABO_SAN_PABLO.jpg.jpg"
+      "image": "/img/locaciones/NORTE/ESTEPA/CABO_SAN_PABLO.jpg"
     },
     {
       "zona": "NORTE",
       "type": "HISTORICO",
-      "imge": "/img/locaciones/NORTE/HISTORICO/HISTORICO_1.jpg"
+      "image": "/img/locaciones/NORTE/HISTORICO/HISTORICO_1.jpg"
     },
     {
       "zona": "NORTE",
       "type": "HISTORICO",
-      "imge": "/img/locaciones/NORTE/HISTORICO/HISTORICO_2.jpg"
+      "image": "/img/locaciones/NORTE/HISTORICO/HISTORICO_2.jpg"
     },
     {
       "zona": "NORTE",
       "type": "HISTORICO",
-      "imge": "/img/locaciones/NORTE/HISTORICO/HISTORICO_3.jpg.jpg"
+      "image": "/img/locaciones/NORTE/HISTORICO/HISTORICO_3.jpg"
     },
     {
       "zona": "NORTE",
       "type": "MAR",
-      "imge": "/img/locaciones/NORTE/MAR/MAR_1.jpg"
+      "image": "/img/locaciones/NORTE/MAR/MAR_1.jpg"
     },
     {
       "zona": "NORTE",
       "type": "MAR",
-      "imge": "/img/locaciones/NORTE/MAR/MAR_2.jpg"
+      "image": "/img/locaciones/NORTE/MAR/MAR_2.jpg"
     },
     {
       "zona": "NORTE",
       "type": "MAR",
-      "imge": "/img/locaciones/NORTE/MAR/MAR_3.jpg.jpg"
+      "image": "/img/locaciones/NORTE/MAR/MAR_3.jpg"
     },
     {
       "zona": "SUR",
       "type": "BOSQUE",
-      "imge": "/img/locaciones/SUR/BOSQUE/BOSQUE_2.jpg"
+      "image": "/img/locaciones/SUR/BOSQUE/BOSQUE_1.jpg"
     },
     {
       "zona": "SUR",
       "type": "BOSQUE",
-      "imge": "/img/locaciones/SUR/BOSQUE/BOSQUE_3.jpg.jpg"
+      "image": "/img/locaciones/SUR/BOSQUE/BOSQUE_2.jpg"
     },
     {
       "zona": "SUR",
       "type": "BOSQUE",
-      "imge": "/img/locaciones/SUR/BOSQUE/BOSQUE_1.jpg"
+      "image": "/img/locaciones/SUR/BOSQUE/BOSQUE_3.jpg"
     },
     {
       "zona": "SUR",
       "type": "BOSQUE",
-      "imge": "/img/locaciones/SUR/BOSQUE/BOSQUE_2.jpg"
+      "image": "/img/locaciones/SUR/BOSQUE/BOSQUE_4.jpg"
     },
     {
       "zona": "SUR",
       "type": "BOSQUE",
-      "imge": "/img/locaciones/SUR/BOSQUE/BOSQUE_3.jpg.jpg"
+      "image": "/img/locaciones/SUR/BOSQUE/BOSQUE_5.jpg"
     },
     {
       "zona": "SUR",
       "type": "CIUDAD",
-      "imge": "/img/locaciones/SUR/CIUDAD/AEROLINEAS.jpg"
+      "image": "/img/locaciones/SUR/CIUDAD/AEROLINEAS.jpg"
     },
     {
       "zona": "SUR",
       "type": "CIUDAD",
-      "imge": "/img/locaciones/SUR/CIUDAD/FARO.jpg.jpg"
+      "image": "/img/locaciones/SUR/CIUDAD/FARO.jpg"
     },
     {
       "zona": "SUR",
       "type": "MONTANAS",
-      "imge": "/img/locaciones/SUR/MONTANAS/MONTANAS_1.jpg"
+      "image": "/img/locaciones/SUR/MONTANAS/MONTANAS_1.jpg"
     },
     {
       "zona": "SUR",
       "type": "MONTANAS",
-      "imge": "/img/locaciones/SUR/MONTANAS/MONTANAS_2.jpg"
+      "image": "/img/locaciones/SUR/MONTANAS/MONTANAS_2.jpg"
     },
     {
       "zona": "SUR",
       "type": "MONTANAS",
-      "imge": "/img/locaciones/SUR/MONTANAS/MONTANAS_3.jpg.jpg"
+      "image": "/img/locaciones/SUR/MONTANAS/MONTANAS_3.jpg"
     },
     {
       "zona": "SUR",
       "type": "MONTANAS",
-      "imge": "/img/locaciones/SUR/MONTANAS/MONTANAS_4.jpg"
+      "image": "/img/locaciones/SUR/MONTANAS/MONTANAS_4.jpg"
     },
     {
       "zona": "SUR",
       "type": "MONTANAS",
-      "imge": "/img/locaciones/SUR/MONTANAS/MONTANAS_5.jpg.jpg"
+      "image": "/img/locaciones/SUR/MONTANAS/MONTANAS_5.jpg"
     },
     {
       "zona": "SUR",
       "type": "MONTANAS",
-      "imge": "/img/locaciones/SUR/MONTANAS/MONTANAS_6.jpg.jpg"
+      "image": "/img/locaciones/SUR/MONTANAS/MONTANAS_6.jpg"
     },
     {
       "zona": "SUR",
       "type": "PLAYAS",
-      "imge": "/img/locaciones/SUR/PLAYAS/PLAYAS_1.jpg"
+      "image": "/img/locaciones/SUR/PLAYAS/PLAYAS_1.jpg"
     },
     {
       "zona": "SUR",
       "type": "PLAYAS",
-      "imge": "/img/locaciones/SUR/PLAYAS/PLAYAS_2.jpg"
+      "image": "/img/locaciones/SUR/PLAYAS/PLAYAS_2.jpg"
     },
     {
       "zona": "SUR",
       "type": "PLAYAS",
-      "imge": "/img/locaciones/SUR/PLAYAS/PLAYAS_3.jpg.jpg"
+      "image": "/img/locaciones/SUR/PLAYAS/PLAYAS_3.jpg"
     },
     {
       "zona": "SUR",
       "type": "PLAYAS",
-      "imge": "/img/locaciones/SUR/PLAYAS/PLAYAS_4.jpg"
+      "image": "/img/locaciones/SUR/PLAYAS/PLAYAS_4.jpg"
     },
     {
       "zona": "SUR",
       "type": "PLAYAS",
-      "imge": "/img/locaciones/SUR/PLAYAS/PLAYAS_5.jpg.jpg"
+      "image": "/img/locaciones/SUR/PLAYAS/PLAYAS_5.jpg"
     },
     {
       "zona": "SUR",
       "type": "PLAYAS",
-      "imge": "/img/locaciones/SUR/PLAYAS/PLAYAS_6.jpg.jpg"
+      "image": "/img/locaciones/SUR/PLAYAS/PLAYAS_6.jpg"
     },
     {
       "zona": "SUR",
       "type": "PLAYAS",
-      "imge": "/img/locaciones/SUR/PLAYAS/PLAYAS_7.jpg.jpg"
+      "image": "/img/locaciones/SUR/PLAYAS/PLAYAS_7.jpg"
     },
     {
       "zona": "SUR",
       "type": "RIOS",
-      "imge": "/img/locaciones/SUR/RIOS/RIOS_1.jpg.jpg"
+      "image": "/img/locaciones/SUR/RIOS/RIOS_1.jpg"
     },
     {
       "zona": "SUR",
       "type": "VALLES",
-      "imge": "/img/locaciones/SUR/VALLES/VALLES_1.jpg.jpg"
+      "image": "/img/locaciones/SUR/VALLES/VALLES_1.jpg"
     },
     {
       "zona": "SUR",
       "type": "VALLES",
-      "imge": "/img/locaciones/SUR/VALLES/VALLES_2.jpg.jpg"
+      "image": "/img/locaciones/SUR/VALLES/VALLES_2.jpg"
     },
     {
       "zona": "SUR",
       "type": "VALLES",
-      "imge": "/img/locaciones/SUR/VALLES/VALLES_3.jpg.jpg"
+      "image": "/img/locaciones/SUR/VALLES/VALLES_3.jpg"
     }
   ]
 }

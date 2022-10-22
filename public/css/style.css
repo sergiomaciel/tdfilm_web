@@ -2495,9 +2495,9 @@ img.left {
 }
 
 .gr-blue-bg {
-  background-image: -webkit-linear-gradient(340deg, #c500ff 0%, #409fff 100%);
-  background-image: -o-linear-gradient(340deg, #c500ff 0%, #409fff 100%);
-  background-image: linear-gradient(110deg, #c500ff 0%, #409fff 100%);
+  background-image: -webkit-linear-gradient(340deg, #c500ff 0%, #009dde 100%);
+  background-image: -o-linear-gradient(340deg, #c500ff 0%, #009dde 100%);
+  background-image: linear-gradient(110deg, #c500ff 0%, #009dde 100%);
 }
 
 .gr-blue-bg.shadow-gr {
@@ -2506,15 +2506,15 @@ img.left {
 }
 
 .gr-blue-text {
-  background-image: -webkit-linear-gradient(340deg, #c500ff 0%, #409fff 100%);
-  background-image: -o-linear-gradient(340deg, #c500ff 0%, #409fff 100%);
-  background-image: linear-gradient(110deg, #c500ff 0%, #409fff 100%);
+  background-image: -webkit-linear-gradient(340deg, #c500ff 0%, #009dde 100%);
+  background-image: -o-linear-gradient(340deg, #c500ff 0%, #009dde 100%);
+  background-image: linear-gradient(110deg, #c500ff 0%, #009dde 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gr-blue-bord {
-  border-image-source: linear-gradient(110deg, #c500ff 0%, #409fff 100%) !important;
+  border-image-source: linear-gradient(110deg, #c500ff 0%, #009dde 100%) !important;
 }
 
 .gr-glow-bg {
@@ -2677,9 +2677,9 @@ img.left {
 }
 
 .gr-purple-red-bg {
-  background-image: -webkit-linear-gradient(340deg, #ff5e57 0%, #409fff 100%);
-  background-image: -o-linear-gradient(340deg, #ff5e57 0%, #409fff 100%);
-  background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+  background-image: -webkit-linear-gradient(340deg, #ec6607 0%, #009dde 100%);
+  background-image: -o-linear-gradient(340deg, #ec6607 0%, #009dde 100%);
+  background-image: linear-gradient(110deg, #ec6607 0%, #009dde 100%);
 }
 
 .gr-purple-red-bg.shadow-gr {
@@ -2688,15 +2688,15 @@ img.left {
 }
 
 .gr-purple-red-text {
-  background-image: -webkit-linear-gradient(340deg, #ff5e57 0%, #409fff 100%);
-  background-image: -o-linear-gradient(340deg, #ff5e57 0%, #409fff 100%);
-  background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+  background-image: -webkit-linear-gradient(340deg, #ec6607 0%, #009dde 100%);
+  background-image: -o-linear-gradient(340deg, #ec6607 0%, #009dde 100%);
+  background-image: linear-gradient(110deg, #ec6607 0%, #009dde 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gr-purple-red-bord {
-  border-image-source: linear-gradient(110deg, #ff5e57 0%, #409fff 100%) !important;
+  border-image-source: linear-gradient(110deg, #ec6607 0%, #009dde 100%) !important;
 }
 
 .gr-orange-bg {

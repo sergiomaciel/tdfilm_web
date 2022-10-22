@@ -28,8 +28,8 @@ const Grid = () => {
                     <Tilt key={index} className="col-lg-4 col-md-6 hover3d" tiltMaxAngleY={10} tiltMaxAngleX={10} u>
                       <div className="feat-item-img hover3d-child bg-img d-flex align-items-end" style={{ backgroundImage: `url(${item.img})` }} data-overlay-dark="2">
                         <div className="cont">
-                        <h6 className="fz-20">{ item.name }</h6>
-                        <Link key={index} href={`/localciones/${item.name}`}>
+                        <h6 className="fz-20"><a href={`/locaciones/${item.name}`}>{ item.name }</a></h6>
+                        <Link key={index} href={`/locaciones/${item.name}`}>
                           <span className="fz-14 opacity-8 mb-5">
                             Más Información
                           </span>

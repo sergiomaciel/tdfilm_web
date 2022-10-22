@@ -33,8 +33,7 @@ const PortfolioClassicFourCols = () => {
 
       <MainLightLayout>
         <StickyBar />
-        <Header title={title}  bg={"img/header_locaciones.jpg"}
-        />
+        <Header title={title}  bg={"img/header_locaciones.jpg"}/>
         <main className="position-re">
           <Grid />
           {/* <Footer footerClass="main-footer bg-dark-blue" /> */}

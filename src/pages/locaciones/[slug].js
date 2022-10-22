@@ -1,28 +1,23 @@
 /* eslint-disable @next/next/no-css-tags */
 import { useEffect } from 'react';
 import Head from 'next/head';
-import { useRouter } from "next/router";
-import Link from 'next/link';
-import slugify from "slugify";
+import { useRouter, Router  } from "next/router";
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
 import StickyBar from '../../components/Common/StickyBar';
 import FixedSearch from '../../components/Common/FixedSearch';
-import Header from '../../components/Project/Header';
-import Detalles from '../../components/Project/Intro';
-import Video from '../../components/Project/Video';
-import Details from '../../components/Project/Details';
-import Description from '../../components/Project/Description';
-import NextPrev from '../../components/Project/NextPrev';
+import Header from '../../components/Header/bg-img/index';
+import Grid from '../../components/Grid/MasonryLocaciones';
 import Footer from "../../components/Footers/MainFooter";
-//= Data
-import data from '../../data/produciones.json';
 
-const ProduccionDetalles = () => {
+//= Data
+import data from '../../data/locaciones.json';
+
+const PortfolioColorfulMasonry = () => {
   useEffect(() => {
     const removeClasses = [
-      'index-bus1', 'index-main', 'index-corporate',
+      'index-main', 'index-bus1', 'index-corporate',
       'index-restaurant', 'index-arch',
       'index-freelancer', 'cr-agency',
       'land-demo2', 'mobile-app',
@@ -34,24 +29,25 @@ const ProduccionDetalles = () => {
 
   const router = useRouter();
   const { slug } = router.query;
-  const item = data.films.find(x => slugify(x.title).toLowerCase()  === slug );
-  
+  const zona = data.zona.find(x => x.name === slug?.toLocaleUpperCase());
+  const title = `ZONA ${zona?.name.toLocaleUpperCase() ?? ""}`;
+
   return (
     <>
       <Head>
-        <title>TDFilm - {item?.title}</title>
+      <title>TDFilm - {title} </title>
       </Head>
 
-      <MainLightLayout MainLightLayout defaultTheme="dark" defaultLogoTheme="dark">
+      <MainLightLayout>
         <StickyBar />
-        <div className="wrapper">
-          <Detalles item={ item } />
-          {/* <Video /> */}
+        <Header title={title}  bg={`${router.basePath}/img/header_locaciones.jpg`}/>
+        <main className="position-re">
+          <Grid zona={zona}/>
           <Footer footerClass="main-footer bg-dark-blue" />
-        </div>
+        </main>
       </MainLightLayout>
     </>
   )
 }
 
-export default ProduccionDetalles;
+export default PortfolioColorfulMasonry;
