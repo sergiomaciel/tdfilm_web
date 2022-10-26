@@ -162,7 +162,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
               </ul>
             </li> */}
             <li className="nav-item">
-              <Link href="/contact-creative"><a className="nav-link">CONTACTO</a></Link>
+              <Link href="/contacto"><a className="nav-link">CONTACTO</a></Link>
             </li>
           </ul>
           <div className="social">

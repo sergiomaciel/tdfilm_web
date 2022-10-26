@@ -23,9 +23,9 @@ const StickyBar = () => {
   return (
     <div className="sticky-bar">
       <div className="left-bar">
-        <Link href="/contact-creative">
+        <Link href="/contacto">
           <a className="contact-butn">
-            <span>Contact Us</span>
+            <span>Contáctenos</span>
             <span className="icon ml-10">
               <i className="far fa-comment"></i>
             </span>

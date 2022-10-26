@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import ModalVideo from 'react-modal-video'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
 import Split from '../../Split';
@@ -16,6 +17,13 @@ const Header = () => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
   const paginationRef = useRef(null);
+  const [isOpen, setOpen] = useState(false);
+  
+  
+  const openVideo = (e) => {
+    e.preventDefault();
+    setOpen(true);
+  }
 
   useEffect(() => {
     setTimeout(() => {
@@ -84,15 +92,10 @@ const Header = () => {
                                 <p className="fz-16">
                                   { slide.text }
                                 </p>
-                              </div>
-                            </div>
-                            <div className="mt-30">
-                              <Link href="/about-corporate">
-                                <a className="butn butn-md gr-sunrise-bg text-light radius-30">
-                                  <span className="text slide-up">PLAY</span>
-                                  <span className="text slide-down">PLAY</span>
+                                <a className="butn butn-md gr-sunrise-bg text-light radius-30" onClick={openVideo}>
+                                  <span className="text"><i className="fas fa-play fz-12 ml-5"></i> PLAY</span>
                                 </a>
-                              </Link>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -102,12 +105,18 @@ const Header = () => {
                 </SwiperSlide>
               ))
             }
+            <ModalVideo 
+              channel='youtube' 
+              controls={0} 
+              isOpen={isOpen} 
+              videoId='ylgYf-vN1Ks' 
+              onClose={() => setOpen(false)} 
+            />
           </Swiper>
         )
         :
         null
       }
-
       <div className="setone setwo">
         <div className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer" ref={navigationNextRef}>
           <i className="fas fa-chevron-right"></i>
