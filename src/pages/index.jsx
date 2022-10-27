@@ -2,12 +2,12 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 //= Layout
-import MainLightLayout from '../../layouts/main-light';
+import MainLightLayout from '../layouts/main-light';
 //= Components
-import StickyBar from '../../components/Common/StickyBar';
-import Header from '../../components/Corporate/Header';
-import Testimonials from '../../components/Corporate/Testimonials';
-import Footer from "../../components/Footers/MainFooter";
+import StickyBar from '../components/Common/StickyBar';
+import Header from '../components/Corporate/Header';
+import Testimonials from '../components/Corporate/Testimonials';
+import Footer from "../components/Footers/MainFooter";
 
 const HomeCorporate = () => {
   useEffect(() => {

@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 
 const Navbar = ({ navbarRef, theme, logoTheme }) => {
   const router = useRouter();
-  // const portada = `${router.basePath}/${item?.image ?? "img/films/default.jpg"}`
 
   const dropdownHover = (e) => {
     const dropdownItem = e.target.tagName === 'SPAN' ? e.target.parentElement : e.target;
@@ -54,7 +53,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link href="/home"><a className="nav-link">HOME</a></Link>
+              <Link href="/"><a className="nav-link">HOME</a></Link>
             </li>
             <li className="nav-item">
               <Link href="/nosotros"><a className="nav-link">NOSOTROS</a></Link>

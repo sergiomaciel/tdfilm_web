@@ -5,14 +5,12 @@ import Head from 'next/head';
 import MainLightLayout from '../../layouts/main-light';
 //= Components
 import StickyBar from '../../components/Common/StickyBar';
-import Header from '../../components/Creative/Header';
+import Header from '../../components/Header/bg-img/index';
 import Contacto from '../../components/Contacto';
 import Footer from '../../components/Footers/MainFooter';
 
 const ContactCreative = () => {
   useEffect(() => {
-    document.body.classList.add('cr-agency');
-
     const removeClasses = [
       'land-demo2', 'index-corporate',
       'index-restaurant', 'index-arch',
@@ -30,12 +28,13 @@ const ContactCreative = () => {
         <title>TDFILM - Contacto</title>
       </Head>
 
-      <MainLightLayout defaultTheme="dark" defaultLogoTheme="dark">
+      <MainLightLayout>
         <StickyBar />
-        <Header title="Contáctenos" />
+        {/* <Header title="Contáctenos" /> */}
+        <Header title={"Contáctenos"} bg="img/header_nosotros.jpg" />
         <main className="main-content">
           <Contacto />
-          <Footer footerClass="main-footer bg-gray-light" creative={true} />
+          <Footer footerClass="main-footer bg-dark-blue bg-img" business={true} />
         </main>
       </MainLightLayout>
     </>

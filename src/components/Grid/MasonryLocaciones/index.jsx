@@ -44,11 +44,11 @@ const Grid = ({zona}) => {
                       </a>
                     </Link>
                     <div className="cont">
-                      <Link href="#">
+                      {/* <Link href="#">
                         <a className="icon">
                           <i className="fas fa-long-arrow-alt-right"></i>
                         </a>
-                      </Link>
+                      </Link> */}
                       <div>
                         <p>{ item.type }</p>
                         <h6 className="fw-500">
