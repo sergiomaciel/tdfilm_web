@@ -5,9 +5,8 @@ import Head from 'next/head';
 import MainLightLayout from '../../layouts/main-light';
 //= Components
 import StickyBar from '../../components/Common/StickyBar';
-import FixedSearch from '../../components/Common/FixedSearch';
 import Header from '../../components/Creative/Header';
-import Contact from '../../components/Creative/Contact';
+import Contacto from '../../components/Contacto';
 import Footer from '../../components/Footers/MainFooter';
 
 const ContactCreative = () => {
@@ -35,7 +34,7 @@ const ContactCreative = () => {
         <StickyBar />
         <Header title="Contáctenos" />
         <main className="main-content">
-          <Contact />
+          <Contacto />
           <Footer footerClass="main-footer bg-gray-light" creative={true} />
         </main>
       </MainLightLayout>

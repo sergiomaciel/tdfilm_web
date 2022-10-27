@@ -5,7 +5,6 @@ import Head from 'next/head';
 import MainLightLayout from '../../layouts/main-light';
 //= Components
 import StickyBar from '../../components/Common/StickyBar';
-import FixedSearch from '../../components/Common/FixedSearch';
 import Header from '../../components/Header/bg-img/index';
 import Portfolio from '../../components/Portfolio/Classic/FourColumns';
 import Footer from "../../components/Footers/MainFooter";

@@ -6,12 +6,7 @@ import MainLightLayout from '../../layouts/main-light';
 //= Components
 import StickyBar from '../../components/Common/StickyBar';
 import Header from '../../components/Header/bg-img/index';
-import NosotrosDetalles from '../../components/Nosotros/Detalles';
-import Services from '../../components/Business/Services2';
-import About from '../../components/Business/About';
-import Testimonials from '../../components/Business/Testimonials';
-import Clients from '../../components/Business/Clients';
-import Team from '../../components/Business/Team';
+import Nosotros from '../../components/Detalles/Nosotros';
 import Footer from "../../components/Footers/MainFooter";
 
 const AboutBusiness = () => {
@@ -39,8 +34,7 @@ const AboutBusiness = () => {
         <StickyBar />
         <Header title={"SOBRE NOSOTROS"} bg="img/header_nosotros.jpg" />
         <main className="position-re">
-          <NosotrosDetalles />
-          <Team />
+          <Nosotros />
           <Footer footerClass="main-footer bg-dark-blue bg-img" business={true} />
         </main>
       </MainLightLayout>

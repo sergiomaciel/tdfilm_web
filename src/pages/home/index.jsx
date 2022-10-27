@@ -6,15 +6,8 @@ import MainLightLayout from '../../layouts/main-light';
 //= Components
 import StickyBar from '../../components/Common/StickyBar';
 import Header from '../../components/Corporate/Header';
-import Hero from '../../components/Corporate/Hero';
-import Services from '../../components/Corporate/Services';
-import Portfolio from '../../components/Corporate/Portfolio';
-import Skills from '../../components/Corporate/Skills';
-import Process from '../../components/Corporate/Process';
 import Testimonials from '../../components/Corporate/Testimonials';
-import Brands from '../../components/Corporate/Brands';
-import Blog from '../../components/Corporate/Blog';
-import Footer from "../../components/Footers/CorporateFooter";
+import Footer from "../../components/Footers/MainFooter";
 
 const HomeCorporate = () => {
   useEffect(() => {
@@ -40,15 +33,8 @@ const HomeCorporate = () => {
       <MainLightLayout>
         <StickyBar />
         <Header />
-        {/* <Hero />
-        <Services />
-        <Portfolio />
-        <Skills />
-        <Process />
-        <Testimonials />
-        <Brands lineHead={true} />
-        <Blog />
-        <Footer /> */}
+        {/* <Testimonials /> */}
+        <Footer footerClass="main-footer bg-dark-blue bg-img" business={true} />
       </MainLightLayout>
     </>
   )
