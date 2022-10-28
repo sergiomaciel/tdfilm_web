@@ -13,6 +13,9 @@
 # production
 /build
 
+/out
+/web_tdfilm.zip
+
 # misc
 .DS_Store
 .env
