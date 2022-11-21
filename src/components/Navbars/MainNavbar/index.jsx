@@ -71,9 +71,8 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
           <div className="social">
             <ul className="rest">
               <li>
-                <a href="#0"><i className="fab fa-facebook-f"></i></a>
-                <a href="#0"><i className="fab fa-twitter"></i></a>
-                <a href="#0"><i className="fab fa-dribbble"></i></a>
+                <a target="_blank" href="https://www.facebook.com/Sec.CulturaTDF" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.instagram.com/culturatdf" rel="noreferrer"><i className="fab fa-instagram"></i></a>
               </li>
             </ul>
           </div>

@@ -33,7 +33,6 @@ const HomeCorporate = () => {
       <MainLightLayout>
         <StickyBar />
         <Header />
-        {/* <Testimonials /> */}
         <Footer footerClass="main-footer bg-dark-blue bg-img" business={true} />
       </MainLightLayout>
     </>

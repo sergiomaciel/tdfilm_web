@@ -45,21 +45,20 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
           <div className="col-lg-4">
             <div className="clumn">
               <div className="logo mb-30">
-                <Link href="/landing-preview">
+                <Link href="/">
                   <a>
                     <img src={`img/logo-${creative ?'dark':'light'}.png`} alt="" />
                   </a>
                 </Link>
               </div>
               <div className="text">
-                <p>We create digital experiences for brands and companies by using technology.</p>
+                <p>La Comisión Fílmica de Tierra del Fuego tiene por objetivo facilitar a las productoras locales, nacionales e internacionales la realización de producciones audiovisuales en la provincia.</p>
               </div>
               <div className="social circle-bord mt-30">
                 <ul className="rest horizontal-link">
                   <li>
-                    <a href={footerData.social_links.facebook}><i className="fab fa-facebook-f"></i></a>
-                    <a href={footerData.social_links.twitter} className="ms-1"><i className="fab fa-twitter"></i></a>
-                    <a href={footerData.social_links.youtube} className="ms-1"><i className="fab fa-youtube"></i></a>
+                    <a href={footerData.social_links.facebook}><i className="fab fa-facebook-f" target="_blank"></i></a>
+                    <a href={footerData.social_links.instagram} className="ms-1"><i className="fab fa-instagram" target="_blank"></i></a>
                   </li>
                 </ul>
               </div>
@@ -67,7 +66,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
           </div>
           <div className="col-lg-4">
             <div className="clumn">
-              <h5 className="title fw-600 fz-20 mb-30">About Us</h5>
+              <h5 className="title fw-600 fz-20 mb-30">Sobre Nosotros</h5>
               <ul className="cmp-links">
                 {
                   footerData.links.map((link, idx) => (
@@ -83,7 +82,7 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
           </div>
           <div className="col-lg-4">
             <div className="clumn">
-              <h5 className="title fw-600 fz-20 mb-30">Office</h5>
+              <h5 className="title fw-600 fz-20 mb-30">Información</h5>
               <ul className="address">
                 <li className="adrs mb-15">{ footerData.address }</li>
                 <li className="eml underline mb-15">
@@ -105,18 +104,8 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
               <div className="horizontal-link fz-13">
                 <ul className="rest">
                   <li className="mr-30">
-                    <Link href="/services-business">
-                    <a>Privacy policy</a>
-                    </Link>
-                  </li>
-                  <li className="mr-30">
-                    <Link href="/services-business">
-                    <a>Legal notice</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services-business">
-                    <a>Terms of service</a>
+                    <Link href="/politica-privacidad">
+                    <a>Política de privacidad</a>
                     </Link>
                   </li>
                 </ul>
