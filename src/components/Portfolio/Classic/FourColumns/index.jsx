@@ -37,7 +37,7 @@ const Portfolio = () => {
                       <Link href={`/produccion/${slugify(item.title).toLowerCase()}`}>
                         <a className="imago wow">
                           <img src={item.image ?? "img/films/default.jpg"} alt="image" style={{ width: 400, height: 600 }}/>
-                          {/* <div className="item-img-overlay"></div> */}
+                          <div className="item-img-overlay"></div>
                         </a>
                       </Link>
                     </div>
