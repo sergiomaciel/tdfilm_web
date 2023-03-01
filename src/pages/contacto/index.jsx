@@ -4,7 +4,6 @@ import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
-import StickyBar from '../../components/Common/StickyBar';
 import Header from '../../components/Header/bg-img/index';
 import Contacto from '../../components/Contacto';
 import Footer from '../../components/Footers/MainFooter';
@@ -29,7 +28,6 @@ const ContactCreative = () => {
       </Head>
 
       <MainLightLayout>
-        <StickyBar />
         {/* <Header title="Contáctenos" /> */}
         <Header title={"Contáctenos"} bg="img/header_nosotros.jpg" />
         <main className="main-content">

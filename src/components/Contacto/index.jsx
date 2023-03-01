@@ -8,7 +8,7 @@ const Contacto = () => {
       {/* Contact Form */}
       <Form />
       {/* Contact Map */}
-      <Map />
+      {/* <Map /> */}
       {/* Contact Info */}
       <Info />
     </div>

@@ -59,6 +59,9 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
               <Link href="/nosotros"><a className="nav-link">NOSOTROS</a></Link>
             </li>
             <li className="nav-item">
+              <Link href="/cine"><a className="nav-link"><b>CINE</b></a></Link>
+            </li>
+            <li className="nav-item">
               <Link href="/hecho-en-tdf"><a className="nav-link">HECHO EN TDF</a></Link>
             </li>
             <li className="nav-item">

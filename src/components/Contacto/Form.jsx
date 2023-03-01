@@ -68,13 +68,13 @@ const Form = () => {
 
                 <div className="col-12">
                   <div className="mb-40">
-                    <h5 className="fw-600">Let&lsquo;s get in touch with us !</h5>
+                    <h5 className="fw-600">¡Pongámonos en contacto con nosotros!</h5>
                   </div>
                 </div>
 
                 <div className="col-lg-6 md-mb30">
                   <div className="form-group mb-30">
-                    <input id="form_name" type="text" name="name" placeholder="Name" required="required" onChange={handleChange} value={formData.name} />
+                    <input id="form_name" type="text" name="name" placeholder="Nombre" required="required" onChange={handleChange} value={formData.name} />
                   </div>
 
                   <div className="form-group mb-30">
@@ -82,13 +82,13 @@ const Form = () => {
                   </div>
 
                   <div className="form-group">
-                    <input id="form_subject" type="text" name="subject" placeholder="Subject" required="required" onChange={handleChange} value={formData.subject} />
+                    <input id="form_subject" type="text" name="subject" placeholder="Asunto" required="required" onChange={handleChange} value={formData.subject} />
                   </div>
                 </div>
 
                 <div className="col-lg-6">
                   <div className="form-group sam-height">
-                    <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required" onChange={handleChange} value={formData.message}></textarea>
+                    <textarea id="form_message" name="message" placeholder="Mensaje" rows="4" required="required" onChange={handleChange} value={formData.message}></textarea>
                   </div>
                 </div>
 

@@ -4,7 +4,6 @@ import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
-import StickyBar from '../../components/Common/StickyBar';
 import Header from '../../components/Header/bg-img/index';
 import Portfolio from '../../components/Portfolio/Classic/FourColumns';
 import Footer from "../../components/Footers/MainFooter";
@@ -32,7 +31,6 @@ const PortfolioClassicFourCols = () => {
       </Head>
 
       <MainLightLayout>
-        <StickyBar />
         <Header 
           title={title}
           bg={"img/hecho_en_tdf.jpg"}
