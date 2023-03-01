@@ -129,7 +129,7 @@ const Footer = ({ footerClass, type }) => {
             </div>
             <div className="col-lg-6">
               <div className="copyrights d-flex justify-content-end">
-                <p className="fz-13">© 2022 TDFilm</p>
+                <p className="fz-13">© 2023 TDFilm</p>
               </div>
             </div>
           </div>

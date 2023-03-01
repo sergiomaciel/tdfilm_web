@@ -5,7 +5,7 @@ import Head from 'next/head';
 import MainLightLayout from '../../layouts/main-light';
 //= Components
 import Header from '../../components/Header/bg-img/index';
-import PoliticaPrivacidad from '../../components/Detalles/PoliticaPrivacidad';
+import CineenGrande from '../../components/Detalles/CineenGrande';
 import Footer from "../../components/Footers/MainFooter";
 
 const AboutBusiness = () => {
@@ -26,13 +26,13 @@ const AboutBusiness = () => {
   return (
     <>
       <Head>
-        <title>TDFILM - Política de privacidad</title>
+        <title>TDFILM - Cine</title>
       </Head>
 
       <MainLightLayout>
-        <Header title={"Política de privacidad"} bg="img/header_nosotros.jpg" />
+        <Header title={"Cine en Grande"} bg="img/header_cineengrande.jpg" />
         <main className="position-re">
-          <PoliticaPrivacidad />
+          <CineenGrande />
           <Footer footerClass="main-footer bg-dark-blue bg-img" business={true} />
         </main>
       </MainLightLayout>

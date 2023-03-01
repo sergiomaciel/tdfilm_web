@@ -4,8 +4,6 @@ import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
-import StickyBar from '../../components/Common/StickyBar';
-import FixedSearch from '../../components/Common/FixedSearch';
 import Header from '../../components/Header/bg-img/index';
 import Grid from '../../components/Grid/FourColumnsCategoriaLocaciones/index';
 import Footer from "../../components/Footers/MainFooter";
@@ -32,7 +30,6 @@ const PortfolioClassicFourCols = () => {
       </Head>
 
       <MainLightLayout>
-        <StickyBar />
         <Header title={title}  bg={"img/header_locaciones.jpg"}/>
         <main className="position-re">
           <Grid />
