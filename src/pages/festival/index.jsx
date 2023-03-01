@@ -26,7 +26,7 @@ const AboutBusiness = () => {
   return (
     <>
       <Head>
-        <title>TDFILM - Cine</title>
+        <title>TDFILM - Festival</title>
       </Head>
 
       <MainLightLayout>
