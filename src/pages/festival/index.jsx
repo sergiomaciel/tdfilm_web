@@ -31,7 +31,7 @@ const AboutBusiness = () => {
 
       <MainLightLayout>
         <Header 
-          title={"6ta Edición del Festival de Cine Nacional “Cine en Grande”"}
+          title={"Cine en Grande"}
           bg="img/header_cineengrande.jpg"
           subTitle={"Rio Grande | Del 3 al 7 de Mayo"}
         />
