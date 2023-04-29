@@ -26,12 +26,12 @@ const AboutBusiness = () => {
   return (
     <>
       <Head>
-        <title>TDFILM - Festival</title>
+        <title>TDFILM - CINE EN GRANDE</title>
       </Head>
 
       <MainLightLayout>
         <Header 
-          title={"Cine en Grande"}
+          title={"CINE EN GRANDE"}
           bg="img/header_cineengrande.jpg"
           subTitle={"Rio Grande | Del 3 al 7 de Mayo"}
         />

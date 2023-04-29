@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+// insert image in html.
+
+
 const CineEnGrande = ({ sections }) => {
   return (
     <section className="hero section-padding position-re">
@@ -70,7 +73,7 @@ const CineEnGrande = ({ sections }) => {
                 <b>11 hs</b> - Taller de Primeros Auxilios para set de rodajes -
                 CC Yaganes - Con inscripción previa - <a
                   target="_blank"
-                  href="https://www.eventbrite.com.ar/e/taller-de-primeros-auxilios-para-set-de-rodajes-tickets-626747557817"
+                  href="https://www.eventbrite.com.ar/e/626747557817"
                   rel="noreferrer"
                 >
                   <i className="fa fa-link"> Link</i>
@@ -82,7 +85,7 @@ const CineEnGrande = ({ sections }) => {
                 competencia - IPES Paulo Freire - Con inscripción previa
                 <a
                   target="_blank"
-                  href="https://www.eventbrite.com.ar/e/proyeccion-de-cortometrajes-nacionales-en-competencia-tickets-626756725237"
+                  href="https://www.eventbrite.com.ar/e/626756725237"
                   rel="noreferrer"
                 >
                   <i className="fa fa-link"> Link</i>
@@ -124,7 +127,7 @@ const CineEnGrande = ({ sections }) => {
                 <b>17 hs</b> - Proyección de Largometraje Nacional en
                 competencia, HUSEK de Daniela Seggiaro - Cinemas4 - <a
                   target="_blank"
-                  href="https://www.eventbrite.com.ar/e/proyeccion-de-largometraje-nacional-husek-tickets-626768440277"
+                  href="https://www.eventbrite.com.ar/e/627484522097"
                   rel="noreferrer"
                 >
                   <i className="fa fa-link"> Link</i>
@@ -135,7 +138,7 @@ const CineEnGrande = ({ sections }) => {
                 <b>19 hs</b> - Proyección de Largometraje Binacional en
                 competencia MANKEWENÜY / AMIGA DEL CÓNDOR de María Manzanares - <a
                   target="_blank"
-                  href="https://www.eventbrite.com.ar/e/proyeccion-de-largometraje-binacional-mankewenuy-amiga-del-condor-tickets-626775722057"
+                  href="https://www.eventbrite.com.ar/e/626775722057"
                   rel="noreferrer"
                 >
                   <i className="fa fa-link"> Link</i>
@@ -165,7 +168,7 @@ const CineEnGrande = ({ sections }) => {
                 Asociación Argentina de Directores de Arte (AADA) - Universidad
                 Nacional de Tierra del Fuego - <a
                   target="_blank"
-                  href="https://www.eventbrite.com.ar/e/taller-de-direccion-de-arte-brindado-por-la-aada-tickets-627109028987"
+                  href="https://www.eventbrite.com.ar/e/627109028987"
                   rel="noreferrer"
                 >
                   <i className="fa fa-link"> Link</i>
@@ -176,18 +179,7 @@ const CineEnGrande = ({ sections }) => {
                 <b>14 hs</b> - Proyección de Largometraje Binacional en
                 competencia LAS INTEMPERIES de Guido De Paula - Cinemas4 - <a
                   target="_blank"
-                  href="https://www.eventbrite.com.ar/e/proyeccion-de-largometraje-binacional-en-competencia-las-intemperies-tickets-627113442187"
-                  rel="noreferrer"
-                >
-                  <i className="fa fa-link"> Link</i>
-                </a>
-              </p>
-              <br />
-              <p className="fw-500 fz-16 mb-10 text-dark">
-                <b>16 hs</b> - Proyección de Largometraje Nacional en
-                competencia BARRIO MODELO de Mara Pescio - Cinemas4 - <a
-                  target="_blank"
-                  href="https://www.eventbrite.com.ar/e/proyeccion-de-largometraje-nacional-en-competencia-barrio-modelo-tickets-627116571547"
+                  href="https://www.eventbrite.com.ar/e/627113442187"
                   rel="noreferrer"
                 >
                   <i className="fa fa-link"> Link</i>
@@ -198,7 +190,7 @@ const CineEnGrande = ({ sections }) => {
                 <b>18 hs</b> - Proyección de Cortometrajes Binacionales
                 (Patagónicos) en competencia - IPES - <a
                   target="_blank"
-                  href="https://www.eventbrite.com.ar/e/proyeccion-de-cortometrajes-binacionales-patagonicos-en-competencia-tickets-627120824267"
+                  href="https://www.eventbrite.com.ar/e/627120824267"
                   rel="noreferrer"
                 >
                   <i className="fa fa-link"> Link</i>
@@ -532,6 +524,12 @@ const CineEnGrande = ({ sections }) => {
                 de Arte (AADA), Asociación Argentina de Coloristas (AAC), Cruz
                 Roja Argentina y Cine.ar.
               </p>
+              <br />
+              <Link href="/">
+                <a>
+                  <img src={`img/banner_cineeengrande.jpg`} alt=""  width="100%" />
+                </a>
+              </Link>
               <br />
 
               <p className="fw-500 fz-18 mb-10 text-dark">

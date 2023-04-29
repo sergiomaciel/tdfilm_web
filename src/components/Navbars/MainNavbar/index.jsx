@@ -59,7 +59,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
               <Link href="/nosotros"><a className="nav-link">NOSOTROS</a></Link>
             </li>
             <li className="nav-item">
-              <Link href="/festival"><a className="nav-link"><b>Festival</b></a></Link>
+              <Link href="/cine-en-grande"><a className="nav-link"><b>CINE EN GRANDE</b></a></Link>
             </li>
             <li className="nav-item">
               <Link href="/hecho-en-tdf"><a className="nav-link">HECHO EN TDF</a></Link>
