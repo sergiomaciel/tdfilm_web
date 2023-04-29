@@ -32,7 +32,7 @@ const AboutBusiness = () => {
       <MainLightLayout>
         <Header 
           title={"CINE EN GRANDE"}
-          bg="img/header_cineengrande.jpg"
+          bg="img/header_cineengrande_2.jpg"
           subTitle={"Rio Grande | Del 3 al 7 de Mayo"}
         />
         <main className="position-re">
