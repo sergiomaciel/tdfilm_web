@@ -561,6 +561,21 @@ const CineEnGrande = ({ sections }) => {
                   </a>
                 </li>
               </ul>
+              <br />
+              <p className="fw-500 fz-18 mb-10 text-dark">
+                <span className="fz-30">CATÁLOGO</span>
+              </p>
+              <ul className="rest">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://film.tdf.gob.ar/file/Catalogo_CineEnGrande_23-2"
+                    rel="noreferrer"
+                  >
+                    <i className="fa fa-download"> Descargar</i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
