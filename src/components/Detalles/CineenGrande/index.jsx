@@ -569,7 +569,7 @@ const CineEnGrande = ({ sections }) => {
                 <li>
                   <a
                     target="_blank"
-                    href="https://film.tdf.gob.ar/file/Catalogo_CineEnGrande_23-2"
+                    href="https://film.tdf.gob.ar/file/Catalogo_CineEnGrande_23-2.pdf"
                     rel="noreferrer"
                   >
                     <i className="fa fa-download"> Descargar</i>
