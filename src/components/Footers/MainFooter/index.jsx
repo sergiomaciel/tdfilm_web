@@ -82,15 +82,15 @@ const Footer = ({ footerClass, footerBg, business, creative }) => {
           </div>
           <div className="col-lg-4">
             <div className="clumn">
-              <h5 className="title fw-600 fz-20 mb-30">Información</h5>
+              <h5 className="title fw-600 fz-20 mb-30">Contacto</h5>
               <ul className="address">
                 <li className="adrs mb-15">{ footerData.address }</li>
-                <li className="eml underline mb-15">
+                {/* <li className="eml underline mb-15">
                   <a href="#0">{ footerData.email }</a>
                 </li>
                 <li className="tel">
                   <h6 className={`${business ? 'gr-green-text': creative ? '':'gr-purple-red-text'}`}>{ footerData.phone }</h6>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

@@ -12,6 +12,10 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  images: {
+    loader: 'imgix',
+    path: 'https://film.tdf.gob.ar',
+  },
 }
 
 module.exports = nextConfig

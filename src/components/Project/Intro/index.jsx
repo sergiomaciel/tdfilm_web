@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import Image from 'next/image'
 import 'react-slidedown/lib/slidedown.css';
 
 const Detalles = ({ item }) => {
@@ -13,7 +14,7 @@ const Detalles = ({ item }) => {
           <div className="col-lg-3 col-md-4">
             <div className="item-img">
               <a className="imago wow">
-                <img src={ portada } alt="image" style={{ width: 400, height: 600 }}/>
+                <Image src={portada} alt="image" width={400} height={600} />
               </a>
             </div>
           </div>

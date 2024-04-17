@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from 'next/image'
 // insert image in html.
 
 const CineEnGrande = ({ sections }) => {
@@ -15,7 +15,7 @@ const CineEnGrande = ({ sections }) => {
               <p className="fw-500 fz-18 mb-10 text-dark">
                 <b>
                   Premio especial otorgado por ACAA (Asociación Argentina de
-                  Coloristas). "Viento, hielo" Videoclip del realizador Ivan
+                  Coloristas). Viento, hielo Videoclip del realizador Ivan
                   Razza (Ushuaia, Tierra del Fuego).
                 </b>
               </p>
@@ -27,7 +27,7 @@ const CineEnGrande = ({ sections }) => {
                 Iván Razza (Ushuaia, Tierra del Fuego).
               </p>
               <p className="fw-500 fz-18 mb-10 text-dark">
-               <b> - Premio a mejor videoclip:</b> "Viento, hielo" Videoclip del
+               <b> - Premio a mejor videoclip:</b> Viento, hielo Videoclip del
                 realizador Ivan Razza (Ushuaia, Tierra del Fuego).
               </p>
               <p className="fw-500 fz-18 mb-10 text-dark">
@@ -143,7 +143,7 @@ const CineEnGrande = ({ sections }) => {
               <br />
               <Link href="/">
                 <a>
-                  <img src={`img/banner_cineeengrande.jpg`} alt=""  width="100%" />
+                  <Image src={`img/banner_cineeengrande.jpg`} alt=""  width="100%" />
                 </a>
               </Link>
               <br />
